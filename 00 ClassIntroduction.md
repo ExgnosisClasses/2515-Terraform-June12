@@ -11,7 +11,7 @@ General information for the class
 - Mid-morning and mid-afternoon 10-minute breaks
     - No fixed time, depends on the flow of discussion
     - Approximately 9:30am and 2:00pm
-- 
+  
 #### Materials
 
 There is a class materials repository located at:
