@@ -171,6 +171,11 @@ provider "azurerm" {
 
 ## Part 3: Create a test resource group
 
+### Before you upload the `main.tf` file
+
+- Because everyone is using the same subscription, you need to create a unique name for your resource group or it will conflict with someone elses.
+- For example, use your name a few random chars like "RodLab1234"
+
 - Upload the `main.tf` file provided
 - It looks like this
 
@@ -183,6 +188,7 @@ resource "azurerm_resource_group" "lab1" {
 }
 ```
 
+**_
 - All this file does is create a resource group.
 - Run `terraform validate` to ensure the file parses correctly
 
